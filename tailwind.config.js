@@ -1,12 +1,30 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   mode: 'jit',
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'class', // or 'media' or 'class'
   theme: {
-    extend: {},
+    colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      gray: colors.gray,
+      blue: colors.blue,
+      red: colors.red,
+      green: colors.green,
+      white: colors.white,
+      black: colors.black,
+    },
+    extend: {
+      fontWeight: ['active', 'hover', 'focus'],
+      fontColor: ['active', 'hover', 'focus'],
+      backgroundColor: ['active', 'hover', 'focus'],
+    },
   },
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-elevation')(['responsive']),
+  ],
 }
