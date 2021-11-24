@@ -13,7 +13,7 @@ export default function Home() {
         <div className="flex flex-col items-center text-center">
           <h1 className="text-4xl">Even newer website!</h1>
           <div className="flex flex-row items-center max-w-3xl">
-            <img src="https://alloew.com/images/alloew.png" className="mr-8
+            <img src="../alloew.png" className="mr-8
             w-1/3 object-contain" />
             <p className="text-lg">We are now on Alloew Version 5, simpler and better than before! (Again)</p>
           </div>
