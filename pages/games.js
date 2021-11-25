@@ -18,52 +18,52 @@ export default function Games() {
       <details>
         <summary>Versions (Left : Newest, Right : Oldest) (Click)</summary>
         <div className="w-screen space-x-2 flex flex-wrap justify-center items-center">
-        <button className="btn-primary" onClick={() => version("V1.0S5")}>
+        <button className="btn primary" onClick={() => version("V1.0S5")}>
           V1.0S5
         </button>
-        <button className="btn-primary" onClick={() => version("V1.0S4.1")}>
+        <button className="btn primary" onClick={() => version("V1.0S4.1")}>
           V1.0S4.1
         </button>
-        <button className="btn-primary" onClick={() => version("V1.0S4")}>
+        <button className="btn primary" onClick={() => version("V1.0S4")}>
           V1.0S4
         </button>
-        <button className="btn-primary" onClick={() => version("V1.0S3")}>
+        <button className="btn primary" onClick={() => version("V1.0S3")}>
           V1.0S3
         </button>
-        <button className="btn-primary" onClick={() => version("V1.0S2")}>
+        <button className="btn primary" onClick={() => version("V1.0S2")}>
           V1.0S2
         </button>
-        <button className="btn-primary" onClick={() => version("V1.0S1")}>
+        <button className="btn primary" onClick={() => version("V1.0S1")}>
           V1.0S1
         </button>
-        <button className="btn-primary" onClick={() => version("B1.1.1")}>
+        <button className="btn primary" onClick={() => version("B1.1.1")}>
           B1.1.1
           </button>
-          <button className="btn-primary" onClick={() => version("B1.1")}>
+          <button className="btn primary" onClick={() => version("B1.1")}>
           B1.1
           </button>
-          <button className="btn-primary" onClick={() => version("B1.0")}>
+          <button className="btn primary" onClick={() => version("B1.0")}>
           B1.0
           </button>
-          <button className="btn-primary" onClick={() => version("A3.3.1")}>
+          <button className="btn primary" onClick={() => version("A3.3.1")}>
           A3.3.1
           </button>
-          <button className="btn-primary" onClick={() => version("A3.3")}>
+          <button className="btn primary" onClick={() => version("A3.3")}>
           A3.3
           </button>
-          <button className="btn-primary" onClick={() => version("A3.2.1")}>
+          <button className="btn primary" onClick={() => version("A3.2.1")}>
           A3.2.1
           </button>
-          <button className="btn-primary" onClick={() => version("A3.2")}>
+          <button className="btn primary" onClick={() => version("A3.2")}>
           A3.2
           </button>
-          <button className="btn-primary" onClick={() => version("A3.1")}>
+          <button className="btn primary" onClick={() => version("A3.1")}>
           A3.1
           </button>
-          <button className="btn-primary" onClick={() => version("A2.0")}>
+          <button className="btn primary" onClick={() => version("A2.0")}>
           A2.0
           </button>
-          <button className="btn-primary" onClick={() => version("A1.0")}>
+          <button className="btn primary" onClick={() => version("A1.0")}>
           A1.0
         </button>
         </div>
