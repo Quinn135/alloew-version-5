@@ -8,6 +8,8 @@ function Item(props) {
       <h1 className="text-lg">By : {props.author}</h1>
       <img src={props.src} className="m-auto rounded" style={{ 'max-height': '80vh', 'max-width': '80vw', }} />
       <br />
+      <a className="btn quaternary" href={props.src} download>Download</a>
+      <br />
       <div className="border-b w-11/12 h-2 dark:border-gray-200 border-gray-800"></div>
     </div>
   )

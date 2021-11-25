@@ -28,6 +28,7 @@ export default function Other() {
         <button className="btn primary">Primary</button>
         <button className="btn secondary">Secondary</button>
         <button className="btn tertiary">Tertiary</button>
+        <button className="btn quaternary">Quaternary</button>
         <button className="link">Link</button>
       </div>
       <br/>

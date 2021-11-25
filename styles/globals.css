@@ -18,6 +18,9 @@
   .tertiary{
     @apply bg-red-600 hover:bg-red-700 active:bg-red-800;
   }
+  .quaternary{
+    @apply bg-gray-400 hover:bg-gray-500 active:bg-gray-600;
+  }
   ::selection{
     @apply bg-black dark:bg-white text-white dark:text-black;
   }
