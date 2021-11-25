@@ -15,12 +15,12 @@ function MyApp({ Component, pageProps }) {
   return (
     <main className="dark" style={{ 'overflowX': 'hidden', }} id="main">
       <Head>
-        <title>Welcome to Alloew!</title>
+        <title>Alloew!</title>
         <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png" />
       </Head>
-      <div className="min-h-screen bg-gray-100 dark:bg-gray-900
-      text-gray-800 dark:text-gray-100 transition-all duration-150
+      <div className="min-h-screen dark:bg-gray-900
+      text-gray-800 dark:text-gray-100
       text-center">
         <nav className="w-full dark:bg-gray-900 bg-white
       dark:text-gray-200 p-2 font-thin elevation-12 flex flex-row

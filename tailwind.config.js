@@ -14,6 +14,8 @@ module.exports = {
       green: colors.green,
       white: colors.white,
       black: colors.black,
+      yellow: colors.yellow,
+      orange: colors.orange,
     },
     extend: {
       fontWeight: ['active', 'hover', 'focus'],

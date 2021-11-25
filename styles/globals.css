@@ -6,9 +6,20 @@
   .active{
     @apply font-normal;
   }
-  .btn-primary{
-    @apply text-gray-50 transition-all duration-200 bg-blue-700 p-2
-    rounded hover:bg-blue-800 active:bg-blue-900;
+  .btn{
+    @apply p-2 rounded transition-all duration-200 text-white;
+  }
+  .primary{
+    @apply bg-blue-600 hover:bg-blue-700 active:bg-blue-800;
+  }
+  .secondary{
+    @apply bg-green-600 hover:bg-green-700 active:bg-green-800;
+  }
+  .tertiary{
+    @apply bg-red-600 hover:bg-red-700 active:bg-red-800;
+  }
+  ::selection{
+    @apply bg-black dark:bg-white text-white dark:text-black;
   }
 }
 
@@ -32,7 +43,7 @@
   border-radius: 0.5rem;
   content: "";
   position: absolute;
-  background-color: rgb(52, 52, 219);
+  background-color: rgb(18, 67, 226);
   height: 3px;
   width: 0%;
   bottom: -2px;
@@ -56,4 +67,47 @@
   animation-name: in;
   animation-duration: 0.3s;
   animation-timing-function: ease;
+}
+
+@keyframes spin{
+  from{transform: rotate(0deg);}
+  to{transform: rotate(360deg);}
+}
+.spin{
+  animation-name: spin;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes fade{
+  0%{opacity: 1;}
+  50%{opacity: 0;}
+  100%{opacity: 1;}
+}
+.fade{
+  animation-name: fade;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.blink{
+  animation-name: fade;
+  animation-duration: 1s;
+  animation-timing-function: step-end;
+  animation-iteration-count: infinite;
+}
+
+@keyframes spinScale{
+  0%{transform: scale(0) rotate(0deg);}
+  10%{transform: scale(0) rotate(0deg);}
+  50%{transform: scale(1) rotate(720deg);}
+  90%{transform: scale(0) rotate(1440deg);}
+  100%{transform: scale(0) rotate(1440deg);}
+}
+.spinscale{
+  animation-name: spinScale;
+  animation-duration: 2.7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
