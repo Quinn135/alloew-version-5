@@ -8,19 +8,21 @@ export default function Other() {
       </Head>
       <h1 className="text-6xl">Other</h1>
       <h4 className="text-xl">These are all the other things that we have made that you might want to try.</h4>
-      <br/><div className="border-b w-11/12 h-2 dark:border-gray-200 border-gray-800"></div><br/>
+
+
+      <br /><div className="border-b w-11/12 h-2 dark:border-gray-200 border-gray-800"></div><br />
       <h3 className="text-5xl">Credits : </h3>
       <h4 className="text-xl">Lead Developer : Quinn</h4>
       <h4 className="text-xl">Lead Artist : Flynn</h4>
       <h4 className="text-xl">Artist and Map designer : Jacob</h4>
       <h4 className="text-xl">Game Tester : Mycheal, Richard, Quinn, Flynn, Jacob</h4>
-      <br/><div className="border-b w-11/12 h-2 dark:border-gray-200 border-gray-800"></div><br/>
+      <br /><div className="border-b w-11/12 h-2 dark:border-gray-200 border-gray-800"></div><br />
       <br />
       <h3 className="text-5xl">Chat</h3>
-      <br/>
+      <br />
       <iframe className="game rounded" src="https://deadsimplechat.com/Vc3zaUSkv" />
-      <br/>
-      <br/><div className="border-b w-11/12 h-2 dark:border-gray-200 border-gray-800"></div><br/>
+      <br />
+      <br /><div className="border-b w-11/12 h-2 dark:border-gray-200 border-gray-800"></div><br />
       <br />
       <h3 className="text-5xl">Buttons/Links</h3>
       <br />
@@ -31,8 +33,8 @@ export default function Other() {
         <button className="btn quaternary">Quaternary</button>
         <button className="link">Link</button>
       </div>
-      <br/>
-      <br/><div className="border-b w-11/12 h-2 dark:border-gray-200 border-gray-800"></div><br/>
+      <br />
+      <br /><div className="border-b w-11/12 h-2 dark:border-gray-200 border-gray-800"></div><br />
       <br />
       <h3 className="text-5xl">Animations : </h3>
       <br />
@@ -41,14 +43,14 @@ export default function Other() {
         <img className="max-w-sm m-24 spin" src="../alloew2.png"></img>
       </div>
       <br />
-      <div className="border-b w-2/3 h-2 dark:border-gray-400 border-gray-600"></div><br/>
+      <div className="border-b w-2/3 h-2 dark:border-gray-400 border-gray-600"></div><br />
       <br />
       <div>
         <h1 className="text-3xl">Fade in and out :</h1>
         <img className="max-w-md m-12 fade" src="../alloew2.png"></img>
       </div>
       <br />
-      <div className="border-b w-2/3 h-2 dark:border-gray-400 border-gray-600"></div><br/>
+      <div className="border-b w-2/3 h-2 dark:border-gray-400 border-gray-600"></div><br />
       <br />
       <div>
         <h1 className="text-3xl">Blinking text :</h1>
@@ -58,7 +60,7 @@ export default function Other() {
         </div>
       </div>
       <br />
-      <div className="border-b w-2/3 h-2 dark:border-gray-400 border-gray-600"></div><br/>
+      <div className="border-b w-2/3 h-2 dark:border-gray-400 border-gray-600"></div><br />
       <br />
       <div>
         <h1 className="text-3xl">Spin and scale : </h1>
@@ -69,7 +71,7 @@ export default function Other() {
           <source src="../transition.mp3" type="audio/mpeg"></source>
         </audio>
         <br />
-    </div>
+      </div>
     </div>
   )
 }

@@ -11,6 +11,9 @@ export default function Home() {
       <div className="flex flex-col rounded
       border border-gray-500 p-2 m-2">
         <div className="flex flex-col items-center text-center">
+          <br />
+          <a className='text-5xl text-blue-700 underline' href="https://think.alloew.com/"><h2>NEW!! : THINK.</h2></a>
+          <br />
           <h1 className="text-4xl">Even newer website!</h1>
           <div className="flex flex-row items-center max-w-3xl">
             <img src="../alloew.png" className="mr-8
